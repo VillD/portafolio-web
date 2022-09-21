@@ -4,15 +4,15 @@
 <template>
   <section class="section">
     <div class="section-box">
-      <p class="section-box__title">Web Design <fa class="section-box__icon" :icon ="['fas','pen-nib']"/></p>
+      <p class="section-box__title">Web Design<fa class="section-box__icon" :icon ="['fas','pen-nib']"/><i class="fa-regular fa-pen-nib"></i> </p>
       
     </div>
     <div class="section-box">
-      <p class="section-box__title">Coding <fa class="section-box__icon" :icon ="['fas','code']"/></p>
+      <p class="section-box__title">Coding<fa class="section-box__icon" :icon ="['fas','code']"/></p>
       
     </div>
     <div class="section-box">
-      <p class="section-box__title">App Developer <fa class="section-box__icon" :icon ="['fas','mobile-screen-button']"/></p>
+      <p class="section-box__title">App Developer<fa class="section-box__icon" :icon ="['fas','mobile-screen-button']"/></p>
       
     </div>
   </section>
@@ -21,7 +21,7 @@
 <style scoped>
 .section{
   display: flex;
-  width: 40%;
+  width: 30%;
   justify-content: space-between;
   
 }
@@ -32,8 +32,8 @@
 }
 .section-box .section-box__title{
   position: absolute;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 300;
   white-space: nowrap;
   bottom:-20px;
   animation: up 1.5s;
@@ -42,9 +42,9 @@
   
 }
 .section-box .section-box__icon{
-  width: 26px;
-  height: 26px;
-  margin-left: .5rem;
+  width: 1rem;
+  height: 1rem;
+  margin-left: .2rem;
   color: hsl(63, 69%, 74%);
 }
 @keyframes up{

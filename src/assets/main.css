@@ -1,4 +1,7 @@
 @import "./base.css";
+html{
+  scroll-behavior: smooth;
+}
 #app{
   display: flex;
   align-items: center;

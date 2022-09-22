@@ -9,18 +9,28 @@ import Projects from './components/TheWelcomeProjects.vue'
 </script>
 
 <template>
-   <Nav/>
+  <div class="content-main">
+    <Nav/>
   <header>
-    <titulo msg="Hey, I'm a "/>
+    <titulo smg="Hey, I'm a "/>
   </header>
 
   
   <RouterView />
+  </div>
+   
   <Aboutt />
   <Projects />
 </template>
 
 <style scoped>
+  .content-main{
+    min-height: 100vh;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction:column; 
+    animation: aparecer 1s forwards;    
+}
 header{
   width: 100%;
   flex: 2;
@@ -30,6 +40,14 @@ header{
   padding: 0 2rem;
 }
 
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
 @media screen and (min-width: 1024px){
   .nav{

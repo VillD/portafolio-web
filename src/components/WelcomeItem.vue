@@ -23,6 +23,7 @@
   .about{
     min-height: 100vh;
     display: flex;
+    padding: 0 2rem;
   }
   .about-content{
     display: flex;
@@ -55,4 +56,5 @@
     border-radius: 20px;
     background-color: antiquewhite;
   }
+
 </style>

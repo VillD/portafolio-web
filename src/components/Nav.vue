@@ -9,7 +9,7 @@
     
     <ul class="menu">
       <li class="menu-list">
-        <a class="menu-list__item" href="https://vuejs.org/" target="_blank" rel="noopener">Projects</a>
+        <a class="menu-list__item" href="#projects" rel="noopener">Projects</a>
       </li>
       <li class="menu-list">
         <a  class="menu-list__item" href="#about" rel="noopener">About me</a>
